@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import toast from 'react-hot-toast'
-import { askQuestion } from '@/lib/api'
+import { askQuestion, SourceCitation } from '@/lib/api'
 import DocumentViewer from './DocumentViewer'
 
 interface Citation {
@@ -114,7 +114,7 @@ export default function ChatInterface({ selectedDocumentId }: ChatInterfaceProps
     return `Confidence: ${Math.round(score * 100)}%`
   }
 
-  const handleCitationClick = (source: ChatMessage['sources'][0]) => {
+  const handleCitationClick = (source: SourceCitation) => {
     if (!source) return
 
     setViewerDocument({
