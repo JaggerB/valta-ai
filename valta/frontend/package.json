@@ -36,6 +36,7 @@
     "zustand": "^4.4.6"
   },
   "devDependencies": {
+    "@types/react-plotly.js": "^2.6.3",
     "eslint": "^8",
     "eslint-config-next": "14.0.3"
   }
