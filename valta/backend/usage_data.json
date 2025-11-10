@@ -1,0 +1,54 @@
+{
+  "total_requests": 3,
+  "total_input_tokens": 19696,
+  "total_output_tokens": 4828,
+  "total_cost": 0.131508,
+  "by_model": {
+    "claude-3-7-sonnet-20250219": {
+      "requests": 3,
+      "input_tokens": 19696,
+      "output_tokens": 4828,
+      "cost": 0.131508
+    }
+  },
+  "by_date": {
+    "2025-10-20": {
+      "requests": 1,
+      "input_tokens": 6563,
+      "output_tokens": 1192,
+      "cost": 0.037569000000000005
+    },
+    "2025-11-10": {
+      "requests": 2,
+      "input_tokens": 13133,
+      "output_tokens": 3636,
+      "cost": 0.093939
+    }
+  },
+  "requests": [
+    {
+      "timestamp": "2025-10-20T13:10:38.794895",
+      "model": "claude-3-7-sonnet-20250219",
+      "operation": "workbook_generation",
+      "input_tokens": 6563,
+      "output_tokens": 1192,
+      "cost": 0.037569000000000005
+    },
+    {
+      "timestamp": "2025-11-10T10:53:42.551261",
+      "model": "claude-3-7-sonnet-20250219",
+      "operation": "workbook_generation",
+      "input_tokens": 6562,
+      "output_tokens": 1636,
+      "cost": 0.044226
+    },
+    {
+      "timestamp": "2025-11-10T10:54:25.413171",
+      "model": "claude-3-7-sonnet-20250219",
+      "operation": "workbook_generation",
+      "input_tokens": 6571,
+      "output_tokens": 2000,
+      "cost": 0.04971299999999999
+    }
+  ]
+}

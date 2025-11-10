@@ -1,0 +1,39 @@
+# Environment variables (IMPORTANT: Never commit these!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+valta/backend/venv/
+valta/backend/__pycache__/
+valta/backend/**/__pycache__/
+valta/backend/*.pyc
+valta/backend/.pytest_cache/
+valta/backend/valta.db
+valta/backend/valta.db-journal
+valta/backend/uploads/*
+!valta/backend/uploads/.gitkeep
+
+# Node.js / Next.js
+valta/frontend/node_modules/
+valta/frontend/.next/
+valta/frontend/out/
+valta/frontend/build/
+valta/frontend/.vercel
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/

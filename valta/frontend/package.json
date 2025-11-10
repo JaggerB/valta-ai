@@ -1,0 +1,42 @@
+{
+  "name": "valta-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@types/node": "^20",
+    "@types/plotly.js": "^3.0.6",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.546.0",
+    "mammoth": "^1.11.0",
+    "next": "14.0.3",
+    "pdfjs-dist": "^5.3.93",
+    "plotly.js": "^3.1.1",
+    "postcss": "^8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1",
+    "react-modal": "^3.16.3",
+    "react-pdf": "^10.1.0",
+    "react-plotly.js": "^2.6.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.4.6"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3"
+  }
+}
