@@ -33,6 +33,17 @@ export interface SourceCitation {
   page_number?: number
   section?: string
   excerpt: string
+  citation_text?: string
+  sheet_name?: string
+  row_number?: number
+  location?: {
+    type: 'text' | 'pdf' | 'excel'
+    page_number?: number
+    sheet_name?: string
+    row_number?: number
+    line_number?: number
+    char_position?: number
+  }
 }
 
 export interface AnalysisResponse {
