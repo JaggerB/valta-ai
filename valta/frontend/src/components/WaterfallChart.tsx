@@ -90,7 +90,9 @@ export default function WaterfallChart({ data, title }: WaterfallChartProps) {
       color: '#374151'
     },
     xaxis: {
-      title: '',
+      title: {
+        text: ''
+      },
       tickangle: -45,
       tickfont: {
         size: 11,
