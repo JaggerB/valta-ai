@@ -32,7 +32,7 @@ export interface SourceCitation {
   document_name: string
   page_number?: number
   section?: string
-  excerpt: string
+  excerpt?: string
   citation_text?: string
   sheet_name?: string
   row_number?: number
