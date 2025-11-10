@@ -40,6 +40,7 @@ export interface AnalysisResponse {
   sources: SourceCitation[]
   confidence_score: number
   processing_time: number
+  model_used?: string
 }
 
 export interface KeyMetric {
