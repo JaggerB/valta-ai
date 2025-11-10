@@ -475,7 +475,7 @@ export default function Home() {
         return currentConversation ? (
           <WorkbookView
             workbook={currentConversation.workbook}
-            onExport={() => toast.info('Export feature coming soon!')}
+            onExport={() => toast('Export feature coming soon!')}
           />
         ) : null
 
