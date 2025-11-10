@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd valta/frontend && npm install && npm run build",
+  "outputDirectory": "valta/frontend/.next",
+  "framework": "nextjs",
+  "installCommand": "cd valta/frontend && npm install"
+}
