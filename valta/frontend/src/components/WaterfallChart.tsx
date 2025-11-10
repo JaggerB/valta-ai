@@ -129,7 +129,7 @@ export default function WaterfallChart({ data, title }: WaterfallChartProps) {
     responsive: true,
     displayModeBar: true,
     displaylogo: false,
-    modeBarButtonsToRemove: ['lasso2d', 'select2d'],
+    modeBarButtonsToRemove: ['lasso2d', 'select2d'] as any,
     toImageButtonOptions: {
       format: 'png' as const,
       filename: 'waterfall_analysis',
